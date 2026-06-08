@@ -25,3 +25,16 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+**/caddy
+frankenphp
+frankenphp-worker.php
+
+# Laravel Scale - ensure these are committed (un-ignore if needed)
+!docker/
+!config/octane.php
+
+# Laravel Scale - runtime-generated (do not commit)
+frankenphp
+frankenphp-worker.php
+**/caddy
